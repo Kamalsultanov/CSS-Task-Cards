@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px 200px;
+}
+.card{
+    width: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgb(0 ,0, 00, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.3);
+
+}
+.banner{
+    width: 100%;
+}
+button{
+    margin: 10px 250px 10px 10px ;
+    padding: 6px;
+    font: bold  0.6em Arial;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+}
+#tech{
+    background: rgb(27, 202, 202);
+}
+h3{
+    font: bolder 1.2em  Arial;
+    text-align: left;
+    margin: 15px;
+    text-transform: capitalize;
+}
+.text{
+    font:  1em  Arial;
+    text-align: left;
+    margin: 15px;
+}
+.person{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px 30px 10px;
+    float: left;
+    object-fit:cover;
+    border-radius: 50%;
+}
+h2{
+    font: bolder 1em Arial;
+    text-align: left;
+    margin: 30px 0px 10px 70px;
+}
+.hour{
+    font: 0.8em Arial;
+    color: gray;
+    text-align: left;
+    margin: 0px 0px 10px 70px;
+
+}
+#popular{
+    background: purple;
+}
+#design{
+    background: green;
+}
+#shortone{
+    margin: 26px;
+}

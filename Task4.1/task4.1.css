@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 300px;
+    margin: 100px 100px;
+    border: black solid 0.5px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+img{
+    width: 300px;
+}
+p{
+    font: 1em Arial;
+    margin: 10px;
+}
+.hero{
+    margin: 10px;
+    font: bold 1em Arial;
+}
+.plus{
+    padding: 3px;
+    border-radius: 3px;
+    border: black solid 0.1px;
+    background: white;
+    cursor: pointer;
+}
+input{
+    border: none;
+    width: 10px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+.add{
+    padding: 10px;
+    margin:10px 10px;
+    color: white;
+    background: rgb(241, 62, 62);
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}

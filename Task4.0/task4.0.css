@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+}
+header{
+    border-top: solid black 0.5px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+}
+.textlogo{
+    font: bold 2.5em Arial;
+    padding: 14px;
+    float: left;
+}
+.logo{ 
+    width: 60px;
+    float: left;
+    margin: 5px 10px;
+
+}
+ul{ 
+    list-style: none;
+}
+li{
+    margin: 13px;
+    font: bold 1.2em Arial;
+    float: left;
+    margin-top: 35px;
+}
+main{
+    border-top: black solid 0.5px;
+    border-bottom: black solid 0.5px;
+    width: 100%;
+}
+#banner{
+    width: 400px;
+}
+#card{
+    width: 400px;
+    margin: 40px auto 40px auto;
+    border: 1px black solid;
+    overflow: hidden;
+    border-radius: 10px;
+}
+h2{
+    padding: 20px ;
+    font: bold 30px/20px Arial;
+}
+p{
+    padding: 20px;
+    font: bold 13px Arial;
+}
+button{
+    margin: 20px;
+    padding: 10px 50px;
+    border: none;
+    background: rgb(184, 22, 184);
+    font: 20px Arial ;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+h3{
+    display: inline-block;
+    margin: 35px ;
+    font: bold 0.8em Arial;
+}
